@@ -1,9 +1,9 @@
 ### INSTALL SCRIPT 
-<pre><code>apt update && apt install -y curl wget xz-utils screen && apt install -y wget && apt install -y xz-utils && apt install -y shc && mkdir -p /etc/xdtmp && wget -q https://raw.githubusercontent.com/kemetstore/kemetvip/main/premi.sh && chmod +x premi.sh && screen -S install ./premi.sh
+<pre><code>apt update && apt install -y curl wget xz-utils screen && apt install -y wget && apt install -y xz-utils && apt install -y shc && mkdir -p /etc/xdtmp && wget -q https://raw.githubusercontent.com/powerhouser2/zebewe/main/premi.sh && chmod +x premi.sh && screen -S install ./premi.sh
 </code></pre>
 
 ### PERINTAH UPDATE 
-<pre><code>if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/kemetstore/kemetvip/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
+<pre><code>if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/powerhouser2/zebewe/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ### OS SUPPORT
 - UBUNTU 20++
