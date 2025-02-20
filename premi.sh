@@ -88,9 +88,9 @@ echo -e "\e[32mloading...\e[0m"
 clear
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/kemetstore/izinsc/main/ip | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/powerhouser2/ipvip/refs/heads/main/vc | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/kemetstore/izinsc/main/ip | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/powerhouser2/ipvip/refs/heads/main/vc | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -114,7 +114,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/kemetstore/izinsc/main/ip | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/powerhouser2/ipvip/refs/heads/main/vc | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -124,7 +124,7 @@ echo -e "\e[32mloading...\e[0m"
 sleep 2
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/kemetstore/kemetvip/main/"
+    REPO="https://raw.githubusercontent.com/powerhouser2/zebewe/main/"
 
 ####
 start=$(date +%s)
