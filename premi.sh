@@ -35,7 +35,7 @@ clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "  Welcome To Kemet Premium ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}Kemet Premium ® ${NC}${YELLOW}(${NC} ${green} Kemet Premium ${NC}${YELLOW})${NC}"
+echo -e "  Auther : ${green}Kemet Premium ® ${NC}${YELLOW}(${NC} ${green} Alwari Premium ${NC}${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
