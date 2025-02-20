@@ -34,7 +34,7 @@ fun_bar() {
 res1() {
 mkdir -p /cache
 cd /cache
-wget https://raw.githubusercontent.com/kemetstore/kemetvip/main/Cdy/menu.zip
+wget https://raw.githubusercontent.com/powerhouser2/zebewe/main/Cdy/menu.zip
 #7z x -pFixByXdxlTamvanBangetAnjay2828 menu.zip
 unzip menu.zip
 chmod +x menu/*
